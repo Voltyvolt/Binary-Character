@@ -14,8 +14,6 @@ int main(){
 		std::bitset<8> value = std::bitset<8>(name.c_str()[i]);
 		string bitsetvalue = value.to_string();
 		valuearr[i] = bitsetvalue;
-		//cout<<valuearr[i]<<endl;
-		//cout<<count++<<endl;
 	}
 
 	int valcount = 0;
@@ -30,6 +28,6 @@ int main(){
 			valcount++;
 		}
 	}	
-	cout<<Darrays[0][1]<<endl; // This will Be an Binary 
- 	cout<<Dnarrays[0][1]<<endl; // This will Be an Char
+	cout<<Darrays[0][1]<<endl; // This will Be a Binary 
+ 	cout<<Dnarrays[0][1]<<endl; // This will Be a Char
 }
